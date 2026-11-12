@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 21, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 25, "column": 0}, "map": {"version":3,"sources":["file:///E:/WORK/paki-presale-launchpad/new_1-10/app/pool/%5BpoolAddress%5D/page.tsx"],"sourcesContent":["import PoolDetailsClient from \"./PoolDetailsClient\";\r\n\r\ntype Props = {\r\n  params: Promise<{ poolAddress: string }>;\r\n};\r\n\r\nexport default async function PoolDetailsPage({ params }: Props) {\r\n  const { poolAddress } = await params;\r\n  return <PoolDetailsClient poolAddress={poolAddress} />;\r\n}\r\n"],"names":[],"mappings":";;;;;AAAA;;;AAMe,eAAe,gBAAgB,EAAE,MAAM,EAAS;IAC7D,MAAM,EAAE,WAAW,EAAE,GAAG,MAAM;IAC9B,qBAAO,8OAAC,+JAAiB;QAAC,aAAa;;;;;;AACzC"}}]
+}

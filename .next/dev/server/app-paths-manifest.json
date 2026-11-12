@@ -1,0 +1,5 @@
+{
+  "/page": "app/page.js",
+  "/pool/[poolAddress]/page": "app/pool/[poolAddress]/page.js",
+  "/presale/[id]/page": "app/presale/[id]/page.js"
+}
